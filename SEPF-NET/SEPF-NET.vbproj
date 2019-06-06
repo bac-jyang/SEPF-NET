@@ -169,7 +169,7 @@
     <Compile Include="frmGithub.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="githubfrm.vb" />
+    <Compile Include="githubcls2.vb" />
     <Compile Include="PensionerTest.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
