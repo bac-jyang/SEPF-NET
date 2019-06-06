@@ -163,6 +163,13 @@
       <DependentUpon>CrystalReport1.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="frmGithub.Designer.vb">
+      <DependentUpon>frmGithub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGithub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="githubfrm.vb" />
     <Compile Include="PensionerTest.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -362,6 +369,9 @@
     <EmbeddedResource Include="CrystalReport1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGithub.resx">
+      <DependentUpon>frmGithub.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PensionerTest.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
